@@ -1,0 +1,109 @@
+     .slide,
+        img {
+            width: 100%;
+            height: 550px;
+
+
+        }
+
+
+
+        .slick-next:before {
+            content: '→';
+        }
+
+        .slick-prev,
+        .slick-next {
+            z-index: 999;
+        }
+
+        .slick-next {
+            right: 0 !important;
+        }
+
+        .slick-prev {
+            left: 0 !important;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 100%;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: sans-serif;
+            color: #fff;
+        }
+
+        .slider {
+            width: 90%;
+            margin: 0px auto;
+
+        }
+
+        .slick-slide {
+            margin: 10px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+
+
+
+
+        .card {
+            position: relative;
+            border: 2px solid #fff;
+            box-shadow: 1px 1px 20px #ccc;
+
+        }
+
+        .middle {
+            position: absolute;
+            visibility: hidden;
+
+        }
+
+        .card-body {
+            background: #fff;
+            width: 100%;
+            vertical-align: top;
+            background-repeat: no-repeat;
+        }
+
+        .card-content {
+            text-align: center;
+            color: #333;
+            padding: 15px;
+        }
+
+        .card-text {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .car:hover img {
+            opacity: 0.1;
+        }
+
+        .card:hover .middle {
+            opacity: 3;
+        }
+
+        .car:hover .middle {
+            background-color: #51CCA0;
+            color: white;
+            font-size: 16px;
+            position: absolute;
+            top: 47%;
+            padding: 10px 20px;
+            left: 35%;
+            visibility: visible;
+        }
